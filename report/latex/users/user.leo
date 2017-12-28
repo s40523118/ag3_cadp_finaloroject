@@ -20,14 +20,10 @@
 <v t="yen.20170429103940.1" a="E"><vh>@path markdown</vh>
 <v t="ahshoe.20170322182713.1"><vh>@edit reference.md</vh></v>
 <v t="ahshoe.20170322181453.1"><vh>@edit refer.bib</vh></v>
-<v t="leo.20171119234752.1"><vh>組員介紹</vh>
+<v t="leo.20171119234752.1" a="E"><vh>封面以及摘要</vh>
 <v t="ahshoe.20161120122151.1" a="E"><vh>@clean cover_and_abstract.md</vh>
 <v t="ahshoe.20170317115820.1"><vh>摘要</vh></v>
-</v>
-</v>
-<v t="leo.20171228145422.1"><vh>主題</vh>
-<v t="leo.20171228145422.2" a="E"><vh>@clean cover_and_abstract.md</vh>
-<v t="leo.20171228145422.3"><vh>摘要</vh></v>
+<v t="leo.20171228150036.1"><vh>摘要</vh></v>
 </v>
 </v>
 <v t="leo.20171119234822.1" a="E"><vh>各章節內容</vh>
@@ -105,7 +101,7 @@ author:
 - 設計二乙 40523109 王振偉
 - 設計二乙 40523116 辛泊剛
 - 設計二乙 40523117 周哲宇
-- 設計二乙 40523118 林兆戎.
+- 設計二乙 40523118 林兆戎
 
 advisor_zh: '嚴家銘'
 date: '2017.12.18'
@@ -267,40 +263,22 @@ abstract: |
 
 
 </t>
-<t tx="leo.20171228145422.1"></t>
-<t tx="leo.20171228145422.2">---
-university_zh: '國立虎尾科技大學'
-institute_zh: '機械設計工程系'
-category_zh: '電腦輔助設計實習 ag3   期末報告'
-title_zh: '第三組'
-title_en: '提球系統線上報告'
-author:
-- 設計二乙 40523107 鄭佩宜
-- 設計二乙 40523108 王信為
-- 設計二乙 40523109 王振偉
-- 設計二乙 40523116 辛泊剛
-- 設計二乙 40523117 周哲宇
-- 設計二乙 40523118 林兆戎.
-
-advisor_zh: '嚴家銘'
-date: '2017.12.18'
+<t tx="leo.20171228150036.1">各工作內容分工
 ---
 
-@others
-</t>
-<t tx="leo.20171228145422.3">---
-abstract: |
-   主題內容。
+組長:林兆戎
 
-\
+期末報告報告內容編輯人:林兆戎
 
-一個完整的提球系統
+主軸構思:整組人員
 
-\ 
+使用繪圖軟體繪製主軸:鄭佩宜.周哲宇
+使用軟體:on-shape SolidWorks
 
-https://mde1a1.kmol.info/2017fall/doc/trunk/blog/kmol-2017-fall-cadp-fourbar-three-position-synthesis.html
-這是老師的影片參考網址
-</t>
+模擬人員:  王信為.辛泊剛
+使用軟體:  solvespace v-rep
+
+軌道設計:鄭佩宜.周哲宇.林兆戎</t>
 <t tx="yen.20170429103742.1"></t>
 <t tx="yen.20170429103940.1"></t>
 <t tx="yen.20170429132400.1">每一位協同人員各在 users 目錄中建立一個 .leo 檔案

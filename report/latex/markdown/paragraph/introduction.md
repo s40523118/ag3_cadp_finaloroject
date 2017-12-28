@@ -1,18 +1,15 @@
-前言
+主題
 ===
 
-計算器程式期末報告前言
+期末報告主題
 
-前言內容。
+主題內容。
+
+\
+
+一個完整的提球系統
 
 \ 
 
-一個範例數學式：$$\beta=\cos^{-1}{\frac{L0^{2}+d_{AB}^{2}-R0^{2}}{2\times{L0\times{d_{AB}}}}}$$
-
-\ 
-
-關於數學式可以參考這裡：[http://www.hostmath.com/][]
-
-[http://www.hostmath.com/]: http://www.hostmath.com/
-
-提及了某篇刊物[@myart]在這裡。
+https://mde1a1.kmol.info/2017fall/doc/trunk/blog/kmol-2017-fall-cadp-fourbar-three-position-synthesis.html
+這是老師的影片參考網址

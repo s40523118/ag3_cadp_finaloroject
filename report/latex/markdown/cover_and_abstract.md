@@ -1,16 +1,16 @@
 ---
 university_zh: '國立虎尾科技大學'
 institute_zh: '機械設計工程系'
-category_zh: '電腦輔助設計實習 ag1 期末報告'
-title_zh: 'PyQt5 事件導向計算器'
-title_en: 'PyQt5 Event-Driven Calculator Project'
+category_zh: '電腦輔助設計實習 ag3   期末報告'
+title_zh: '第三組'
+title_en: '提球系統線上報告'
 author:
 - 設計二乙 40523107 鄭佩宜
 - 設計二乙 40523108 王信為
 - 設計二乙 40523109 王振偉
 - 設計二乙 40523116 辛泊剛
 - 設計二乙 40523117 周哲宇
-- 設計二乙 40523118 林兆戎
+- 設計二乙 40523118 林兆戎.
 
 advisor_zh: '嚴家銘'
 date: '2017.12.18'
@@ -18,14 +18,13 @@ date: '2017.12.18'
 
 ---
 abstract: |
-    這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+    我們這組以類似挖土機的方式將球從起始點帶上高處，在設計出一條專屬的軌道，使球在軌道中運行可以再度回到起始點，周而復始。
     
-    + 以 YAML 的方式插入。
-    + The '+' indicator says to keep newlines at the end of text blocks.
-    + 使用 Markdown 語法。
-    + 前面使用加號
+    + 球會聚集在最低處當提球系統的凹槽靠近後會滾入。
+    + 滾入後會將球帶到高處軌道，由於軌道是斜面所以球會向下滾.
+    + 經過設計的軌道後會回到最開始的初始點。
     
-    本研究的重點在於 ...
+    使用的軟體為V-rep.    on-shape.   SolidWorks   solvespace  四種軟體
 ---
 
 

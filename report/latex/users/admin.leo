@@ -27,7 +27,7 @@
 <v t="ahshoe.20170322181453.1"><vh>@edit refer.bib</vh></v>
 <v t="leo.20171119234752.1" a="E"><vh>封面以及摘要</vh>
 <v t="ahshoe.20161120122151.1" a="E"><vh>@clean cover_and_abstract.md</vh>
-<v t="ahshoe.20170317115820.1"><vh>摘要</vh></v>
+<v t="ahshoe.20170317115820.1"><vh>主題</vh></v>
 </v>
 </v>
 <v t="leo.20171119234822.1" a="E"><vh>各章節內容</vh>
@@ -49,21 +49,21 @@
 <v t="yen.20170429215446.4"><vh>Brython</vh></v>
 <v t="yen.20170429215446.5"><vh>PyQt</vh></v>
 </v>
-<v t="yen.20170429215617.1"><vh>@clean computer_aided_design.md</vh>
+<v t="yen.20170429215617.1" a="E"><vh>@clean computer_aided_design.md</vh>
 <v t="yen.20170429215851.1"><vh>自動控制</vh></v>
-<v t="yen.20170429215830.1"><vh>機械系統模擬</vh></v>
 <v t="yen.20170429215802.1"><vh>演化運算</vh></v>
+<v t="yen.20170429215830.1"><vh>機械系統模擬</vh></v>
 </v>
 <v t="yen.20170429215922.1" a="E"><vh>@clean leo_editor.md</vh>
 <v t="yen.20170429220001.1"><vh>Scripting</vh></v>
 </v>
-<v t="yen.20170429220128.1"><vh>@clean github.md</vh>
+<v t="yen.20170429220128.1" a="E"><vh>@clean github.md</vh>
 <v t="yen.20170429220137.1"><vh>Github</vh></v>
 </v>
-<v t="yen.20170429220231.1"><vh>@clean fossil.md</vh>
+<v t="yen.20170429220231.1" a="E"><vh>@clean fossil.md</vh>
 <v t="yen.20170429220231.2"><vh>Fossil commands</vh></v>
 </v>
-<v t="yen.20170429220335.1"><vh>@clean onshape.md</vh>
+<v t="yen.20170429220335.1" a="E"><vh>@clean onshape.md</vh>
 <v t="yen.20170429220335.2"><vh>FeatureScript</vh></v>
 </v>
 </v>
@@ -71,6 +71,12 @@
 </v>
 <v t="ahshoe.20170129120932.1" a="E"><vh>Readme</vh>
 <v t="ahshoe.20170129120858.1"><vh>@edit README.md</vh></v>
+</v>
+</v>
+<v t="leo.20171228135218.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20171228135218.3" a="E"><vh>Recovered node "摘要" from @clean cover_and_abstract.md</vh>
+<v t="leo.20171228135218.4"><vh>old:摘要</vh></v>
+<v t="leo.20171228135218.5"><vh>new:摘要</vh></v>
 </v>
 </v>
 </vnodes>
@@ -124,16 +130,19 @@ print('-'*12)</t>
 <t tx="ahshoe.20161120122151.1">---
 university_zh: '國立虎尾科技大學'
 institute_zh: '機械設計工程系'
-category_zh: '電腦輔助設計實習 bg1 期末報告'
-title_zh: '機電資鋼珠循環運動系統設計與製作'
-title_en: 'Design and Manufacturing of an Infomechatronic Marble Machine Project'
+category_zh: '電腦輔助設計實習 ag3   期末報告'
+title_zh: '第三組'
+title_en: '提球系統線上報告'
 author:
-- 設計二乙 秦九韶 同學
-- 設計二乙 李治 同學
-- 設計二乙 楊輝 同學
-- 設計二乙 朱世傑 同學
-advisor_zh: 'Dr. Scrum'
-date: '2017.12.15'
+- 設計二乙 40523107 鄭佩宜
+- 設計二乙 40523108 王信為
+- 設計二乙 40523109 王振偉
+- 設計二乙 40523116 辛泊剛
+- 設計二乙 40523117 周哲宇
+- 設計二乙 40523118 林兆戎
+
+advisor_zh: '嚴家銘'
+date: '2017.12.18'
 ---
 
 @others
@@ -216,13 +225,13 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="ahshoe.20170317115820.1">---
 abstract: |
-    這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+    我們這組以類似挖土機的方式將球從起始點帶上高處，在設計出一條專屬的軌道，使球在軌道中運行可以再度回到起始點，周而復始。
     
-    + 以 YAML 的方式插入。
-    + The '+' indicator says to keep newlines at the end of text blocks.
-    + 使用 Markdown 語法。
+    + 球會聚集在最低處當提球系統的凹槽靠近後會滾入。
+    + 滾入後會將球帶到高處軌道，由於軌道是斜面所以球會向下滾.
+    + 經過設計的軌道後會回到最開始的初始點。
     
-    本研究的重點在於 ...
+    使用的軟體為V-rep.    on-shape.   SolidWorks   solvespace  四種軟體
 ---
 
 
@@ -239,6 +248,50 @@ c:\users\cadlab\desktop\mde\python2017fall_36\data\miktex_portable\miktex-portab
 <t tx="leo.20171119233845.1">https://sourceforge.net/p/miktex/discussion/33790/thread/fcf98fa1/</t>
 <t tx="leo.20171119234752.1"></t>
 <t tx="leo.20171119234822.1"></t>
+<t tx="leo.20171228135218.2"></t>
+<t tx="leo.20171228135218.3">(uncached) ahshoe.20170317115820.1
+Diff...
+  ---
+  abstract: |
+      這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+      
+      + 以 YAML 的方式插入。
+      + The '+' indicator says to keep newlines at the end of text blocks.
+      + 使用 Markdown 語法。
+-     + 前面使用加號
+      
+      本研究的重點在於 ...
+  ---
+  
+  
+</t>
+<t tx="leo.20171228135218.4">---
+abstract: |
+    這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+    
+    + 以 YAML 的方式插入。
+    + The '+' indicator says to keep newlines at the end of text blocks.
+    + 使用 Markdown 語法。
+    
+    本研究的重點在於 ...
+---
+
+
+</t>
+<t tx="leo.20171228135218.5">---
+abstract: |
+    這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+    
+    + 以 YAML 的方式插入。
+    + The '+' indicator says to keep newlines at the end of text blocks.
+    + 使用 Markdown 語法。
+    + 前面使用加號
+    
+    本研究的重點在於 ...
+---
+
+
+</t>
 <t tx="yen.20170429103742.1"></t>
 <t tx="yen.20170429103940.1"></t>
 <t tx="yen.20170429110328.1"></t>

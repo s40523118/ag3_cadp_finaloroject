@@ -9,7 +9,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="ahshoe.20161120121808.1"><vh>@settings</vh>
+<v t="ahshoe.20161120121808.1" a="E"><vh>@settings</vh>
 <v t="ahshoe.20170315212615.1"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="ahshoe.20170315212626.1"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
@@ -30,8 +30,8 @@
 <v t="yen.20170429214838.1" a="E"><vh>@clean introduction.md</vh>
 <v t="yen.20170429214838.3"><vh>前言內容</vh></v>
 </v>
-<v t="yen.20170429215041.1" a="E"><vh>@clean portable_system.md</vh>
-<v t="yen.20170429215130.1"><vh>可攜程式系統介紹</vh></v>
+<v t="yen.20170429215041.1" a="E"><vh>個工作內容分工</vh>
+<v t="yen.20170429215130.1"><vh>各工作分工介紹</vh></v>
 </v>
 <v t="yen.20170429215252.1" a="E"><vh>@clean python_introduction.md</vh>
 <v t="yen.20170429215308.1"><vh>Python 程式語法介紹</vh></v>
@@ -53,6 +53,12 @@
 </v>
 </v>
 </v>
+</v>
+</v>
+<v t="leo.20171228140504.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20171228140504.3"><vh>Recovered node "摘要" from @clean cover_and_abstract.md</vh>
+<v t="leo.20171228140504.4"><vh>old:摘要</vh></v>
+<v t="leo.20171228140504.5"><vh>new:摘要</vh></v>
 </v>
 </v>
 </vnodes>
@@ -99,16 +105,16 @@ g.es('-'*12)</t>
 <t tx="ahshoe.20161120122151.1">---
 university_zh: '國立虎尾科技大學'
 institute_zh: '機械設計工程系'
-category_zh: '電腦輔助設計實習 ag1 期末報告'
-title_zh: 'PyQt5 事件導向計算器'
-title_en: 'PyQt5 Event-Driven Calculator Project'
+category_zh: '電腦輔助設計實習 ag3   期末報告'
+title_zh: '第三組'
+title_en: '提球系統線上報告'
 author:
 - 設計二乙 40523107 鄭佩宜
 - 設計二乙 40523108 王信為
 - 設計二乙 40523109 王振偉
 - 設計二乙 40523116 辛泊剛
 - 設計二乙 40523117 周哲宇
-- 設計二乙 40523118 林兆戎
+- 設計二乙 40523118 林兆戎.
 
 advisor_zh: '嚴家銘'
 date: '2017.12.18'
@@ -193,14 +199,13 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="ahshoe.20170317115820.1">---
 abstract: |
-    這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+    我們這組以類似挖土機的方式將球從起始點帶上高處，在設計出一條專屬的軌道，使球在軌道中運行可以再度回到起始點，周而復始。
     
-    + 以 YAML 的方式插入。
-    + The '+' indicator says to keep newlines at the end of text blocks.
-    + 使用 Markdown 語法。
-    + 前面使用加號
+    + 球會聚集在最低處當提球系統的凹槽靠近後會滾入。
+    + 滾入後會將球帶到高處軌道，由於軌道是斜面所以球會向下滾.
+    + 經過設計的軌道後會回到最開始的初始點。
     
-    本研究的重點在於 ...
+    使用的軟體為V-rep.    on-shape.   SolidWorks   solvespace  四種軟體
 ---
 
 
@@ -222,6 +227,55 @@ abstract: |
 參考 - 詳列所引用的參考內容
 
 附錄 - 附加值得參考的詳細內容</t>
+<t tx="leo.20171228140504.2"></t>
+<t tx="leo.20171228140504.3">(uncached) ahshoe.20170317115820.1
+Diff...
+  ---
+  abstract: |
+-     我們這組以類似挖土機的方式將球從起始點帶上高處，在設計出一條專屬的軌道，使球在軌道中運行可以再度回到起始點，周而復始。
++     這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+      
+-     + 球會聚集在最低處當提球系統的凹槽靠近後會滾入。
+-     + 滾入後會將球帶到高處軌道，由於軌道是斜面所以球會向下滾.
+-     + 經過設計的軌道後會回到最開始的初始點。
++     + 以 YAML 的方式插入。
++     + The '+' indicator says to keep newlines at the end of text blocks.
++     + 使用 Markdown 語法。
++     + 前面使用加號
+      
+-     使用的軟體為V-rep.    on-shape.   SolidWorks   solvespace  四種軟體
++     本研究的重點在於 ...
+  ---
+  
+  
+</t>
+<t tx="leo.20171228140504.4">---
+abstract: |
+    這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+    
+    + 以 YAML 的方式插入。
+    + The '+' indicator says to keep newlines at the end of text blocks.
+    + 使用 Markdown 語法。
+    + 前面使用加號
+    
+    本研究的重點在於 ...
+---
+
+
+</t>
+<t tx="leo.20171228140504.5">---
+abstract: |
+    我們這組以類似挖土機的方式將球從起始點帶上高處，在設計出一條專屬的軌道，使球在軌道中運行可以再度回到起始點，周而復始。
+    
+    + 球會聚集在最低處當提球系統的凹槽靠近後會滾入。
+    + 滾入後會將球帶到高處軌道，由於軌道是斜面所以球會向下滾.
+    + 經過設計的軌道後會回到最開始的初始點。
+    
+    使用的軟體為V-rep.    on-shape.   SolidWorks   solvespace  四種軟體
+---
+
+
+</t>
 <t tx="yen.20170429103742.1"></t>
 <t tx="yen.20170429103940.1"></t>
 <t tx="yen.20170429132400.1">每一位協同人員各在 users 目錄中建立一個 .leo 檔案
@@ -229,55 +283,44 @@ abstract: |
 各自選擇要編輯的 .md 檔案, 可以使用 @edit 或 @clean 節點編輯指令
 
 除非必要否則不更動 markdown 目錄下的 template.tex 檔案</t>
-<t tx="yen.20170429214838.1">前言
+<t tx="yen.20170429214838.1">主題
 ===
 
-計算器程式期末報告前言
+期末報告主題
 
 @others</t>
-<t tx="yen.20170429214838.3">前言內容。
+<t tx="yen.20170429214838.3">主題內容。
+
+\
+
+一個完整的提球系統
 
 \ 
 
-一個範例數學式：$$\beta=\cos^{-1}{\frac{L0^{2}+d_{AB}^{2}-R0^{2}}{2\times{L0\times{d_{AB}}}}}$$
-
-\ 
-
-關於數學式可以參考這裡：[http://www.hostmath.com/][]
-
-[http://www.hostmath.com/]: http://www.hostmath.com/
-
-提及了某篇刊物[@myart]在這裡。
+https://mde1a1.kmol.info/2017fall/doc/trunk/blog/kmol-2017-fall-cadp-fourbar-three-position-synthesis.html
+這是老師的影片參考網址
 </t>
 <t tx="yen.20170429214845.1"></t>
-<t tx="yen.20170429215041.1">可攜程式系統介紹
+<t tx="yen.20170429215041.1">各工作內容分工
 ===
 
-可攜程式系統介紹
-
 @others</t>
-<t tx="yen.20170429215130.1">啟動與關閉
+<t tx="yen.20170429215130.1">各工作內容分工
 ---
 
-Windows 的內容
+組長:林兆戎
 
-有一張圖片：
+期末報告報告內容編輯人:林兆戎
 
-![Kmol][]
+主軸構思:整組人員
 
-稱為圖 {@fig:駱駝}。
+使用繪圖軟體繪製主軸:鄭佩宜.周哲宇
+使用軟體:on-shape SolidWorks
 
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
+模擬人員:王信為.辛泊剛
+使用軟體:solvespace v-rep
 
-啟動與關閉2
----
-
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
-
-啟動與關閉3
----
-
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案</t>
+軌道設計:鄭佩宜.周哲宇.林兆戎</t>
 <t tx="yen.20170429215252.1">Python 程式語法
 ===
 

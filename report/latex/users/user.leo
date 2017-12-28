@@ -20,9 +20,14 @@
 <v t="yen.20170429103940.1" a="E"><vh>@path markdown</vh>
 <v t="ahshoe.20170322182713.1"><vh>@edit reference.md</vh></v>
 <v t="ahshoe.20170322181453.1"><vh>@edit refer.bib</vh></v>
-<v t="leo.20171119234752.1" a="E"><vh>封面以及摘要</vh>
+<v t="leo.20171119234752.1"><vh>組員介紹</vh>
 <v t="ahshoe.20161120122151.1" a="E"><vh>@clean cover_and_abstract.md</vh>
 <v t="ahshoe.20170317115820.1"><vh>摘要</vh></v>
+</v>
+</v>
+<v t="leo.20171228145422.1"><vh>主題</vh>
+<v t="leo.20171228145422.2" a="E"><vh>@clean cover_and_abstract.md</vh>
+<v t="leo.20171228145422.3"><vh>摘要</vh></v>
 </v>
 </v>
 <v t="leo.20171119234822.1" a="E"><vh>各章節內容</vh>
@@ -36,21 +41,7 @@
 <v t="yen.20170429215252.1" a="E"><vh>@clean python_introduction.md</vh>
 <v t="yen.20170429215308.1"><vh>Python 程式語法介紹</vh></v>
 </v>
-<v t="yen.20170429215416.1" a="E"><vh>@clean pyqt5_introduction.md</vh>
-<v t="yen.20170429215446.2"><vh>PyQt5 語法介紹</vh></v>
-</v>
-<v t="yen.20170429215617.1" a="E"><vh>@clean calculator.md</vh>
-<v t="yen.20170429215851.1"><vh>計算機程式內容</vh></v>
-</v>
-<v t="yen.20170429215922.1" a="E"><vh>@clean discussion.md</vh>
-<v t="yen.20170429220001.1"><vh>程式開發心得</vh></v>
-</v>
-<v t="yen.20170429220128.1" a="E"><vh>@clean results.md</vh>
-<v t="yen.20170429220137.1"><vh>期末報告結論</vh></v>
-</v>
-<v t="yen.20170429220335.1" a="E"><vh>@clean appendix.md</vh>
-<v t="yen.20170429220335.2"><vh>附錄</vh></v>
-</v>
+<v t="yen.20170429215416.1"><vh>@clean pyqt5_introduction.md</vh></v>
 </v>
 </v>
 </v>
@@ -276,6 +267,40 @@ abstract: |
 
 
 </t>
+<t tx="leo.20171228145422.1"></t>
+<t tx="leo.20171228145422.2">---
+university_zh: '國立虎尾科技大學'
+institute_zh: '機械設計工程系'
+category_zh: '電腦輔助設計實習 ag3   期末報告'
+title_zh: '第三組'
+title_en: '提球系統線上報告'
+author:
+- 設計二乙 40523107 鄭佩宜
+- 設計二乙 40523108 王信為
+- 設計二乙 40523109 王振偉
+- 設計二乙 40523116 辛泊剛
+- 設計二乙 40523117 周哲宇
+- 設計二乙 40523118 林兆戎.
+
+advisor_zh: '嚴家銘'
+date: '2017.12.18'
+---
+
+@others
+</t>
+<t tx="leo.20171228145422.3">---
+abstract: |
+   主題內容。
+
+\
+
+一個完整的提球系統
+
+\ 
+
+https://mde1a1.kmol.info/2017fall/doc/trunk/blog/kmol-2017-fall-cadp-fourbar-three-position-synthesis.html
+這是老師的影片參考網址
+</t>
 <t tx="yen.20170429103742.1"></t>
 <t tx="yen.20170429103940.1"></t>
 <t tx="yen.20170429132400.1">每一位協同人員各在 users 目錄中建立一個 .leo 檔案
@@ -317,8 +342,8 @@ https://mde1a1.kmol.info/2017fall/doc/trunk/blog/kmol-2017-fall-cadp-fourbar-thr
 使用繪圖軟體繪製主軸:鄭佩宜.周哲宇
 使用軟體:on-shape SolidWorks
 
-模擬人員:王信為.辛泊剛
-使用軟體:solvespace v-rep
+模擬人員:  王信為.辛泊剛
+使用軟體:  solvespace v-rep
 
 軌道設計:鄭佩宜.周哲宇.林兆戎</t>
 <t tx="yen.20170429215252.1">Python 程式語法
@@ -359,123 +384,5 @@ print 函式
 說明 PyQt5 基本架構與程式開發流程
 
 @others</t>
-<t tx="yen.20170429215446.2">PyQt5 架構
----
-
-C 的內容
-
-其中包含一個表格：
-
-Table: Python 網際框架比較 {#tbl:網際框架}
-
-| Framework | Started | Py2 | Py3 | ORM | Template Engine | Auth Moudule | Database Admin | Project Scale |
-|:---------:|:-------:|:---:|:---:|:---:|:---------------:|:------------:|:--------------:|:-------------:|
-| Pyramid | 2005 | V | V |  |  | V |  | large |
-| Django | 2006 | V | V | V | V | V | V | large |
-| Flask | 2010 | V |  |  |  |  |  | small |
-
-稱為表 {@tbl:網際框架}。
-
-Table: 價目表 {#tbl:價目表}
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-稱為表 {@tbl:價目表}。
-
-關於表格生成可以參考這裡：[http://www.tablesgenerator.com/markdown_tables]
-
-[http://www.tablesgenerator.com/markdown_tables]: http://www.tablesgenerator.com/markdown_tables
-
-</t>
-<t tx="yen.20170429215617.1">Calculator 程式
-===
-
-Calculator 程式細部說明
-
-@others</t>
-<t tx="yen.20170429215851.1">建立對話框
----
-
-自動控制 的內容
-
-其中包含一個表格：
-
-Table: Python 網際框架比較 {#tbl:網際框架}
-
-| Framework | Started | Py2 | Py3 | ORM | Template Engine | Auth Moudule | Database Admin | Project Scale |
-|:---------:|:-------:|:---:|:---:|:---:|:---------------:|:------------:|:--------------:|:-------------:|
-| Pyramid | 2005 | V | V |  |  | V |  | large |
-| Django | 2006 | V | V | V | V | V | V | large |
-| Flask | 2010 | V |  |  |  |  |  | small |
-
-稱為表 {@tbl:網際框架}。
-
-Table: 價目表 {#tbl:價目表}
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-稱為表 {@tbl:價目表}。
-
-關於表格生成可以參考這裡：[http://www.tablesgenerator.com/markdown_tables]
-
-[http://www.tablesgenerator.com/markdown_tables]: http://www.tablesgenerator.com/markdown_tables
-
-建立按鈕
----
-
-建立程式碼
----
-
-</t>
-<t tx="yen.20170429215922.1">心得
-===
-
-期末報告心得
-
-@others</t>
-<t tx="yen.20170429220001.1">Fossil SCM
----
-
-網誌心得
----
-
-Github 協同倉儲
----
-
-學員心得
----
-
-說明各學員任務與執行過程</t>
-<t tx="yen.20170429220128.1">結論
-===
-
-期末報告結論
-
-@others</t>
-<t tx="yen.20170429220137.1">結論與建議
----
-
-結論與建議內容</t>
-<t tx="yen.20170429220335.1">附錄
-===
-
-附錄內容
-
-@others</t>
-<t tx="yen.20170429220335.2">專案執行會議紀錄
----
-
-操作過程照片
----
-
-操作過程照片</t>
 </tnodes>
 </leo_file>

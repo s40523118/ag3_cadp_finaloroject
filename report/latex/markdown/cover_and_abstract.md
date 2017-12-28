@@ -18,13 +18,13 @@ date: '2017.12.18'
 
 ---
 abstract: |
-    我們這組以類似挖土機的方式將球從起始點帶上高處，在設計出一條專屬的軌道，使球在軌道中運行可以再度回到起始點，周而復始。
-    
-    + 球會聚集在最低處當提球系統的凹槽靠近後會滾入。
-    + 滾入後會將球帶到高處軌道，由於軌道是斜面所以球會向下滾.
-    + 經過設計的軌道後會回到最開始的初始點。
-    
-    使用的軟體為V-rep.    on-shape.   SolidWorks   solvespace  四種軟體
----
+   主題內容。
 
+\
 
+一個完整的提球系統
+
+\ 
+
+https://mde1a1.kmol.info/2017fall/doc/trunk/blog/kmol-2017-fall-cadp-fourbar-three-position-synthesis.html
+這是老師的影片參考網址
